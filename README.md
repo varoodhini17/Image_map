@@ -131,6 +131,19 @@ silk.html
 </html>
 ````
 # OUTPUT
+### Home Page
+![Home Page](images/map1.png)
+
+### Map Page
+!(images/tmo.png)
+
+### Clickable Regions
+!(images/sto.png)
+
+!(images/mao.png)
+
+!(images/nso.png)
+
 
 # RESULT
 The program for implementing image maps using HTML is executed successfully.
