@@ -24,7 +24,7 @@ Execute the programs and publish them.
 
 # CODE
 map.html
-
+```
 {% load static %}
 <html>
         <head>
@@ -48,10 +48,10 @@ map.html
 
         </body>
 </html>
-
+```
 
 marry.html
-
+```
 {% load static %}
 <html>
         <head>
@@ -66,10 +66,10 @@ marry.html
             </center>
         </body>
 </html>
-
+```
 
 palace.html
-
+```
 {% load static %}
 <html>
         <head>
@@ -86,10 +86,10 @@ palace.html
             </center>
         </body>
 </html>
-
+```
 
 silk.html
-
+```
 {% load static %}
 <html>
         <head>
@@ -106,9 +106,9 @@ silk.html
                 The store is a trusted landmark for bridal and ethnic wear shopping in the city.</p></h2>
         </body>
 </html>
-
+```
 temple.html
-
+```
 {% load static %}
 <html>
         <head>
@@ -126,10 +126,10 @@ temple.html
             </center>  
         </body>
 </html>
-
+```
 
 urls.py
-
+```
 from django.contrib import admin
 from django.urls import path
 from myapp import views
@@ -142,10 +142,10 @@ urlpatterns = [
     path('silk',views.sil,name='sil'),
     path('temple/',views.temp,name='temp')
 ]
-
+```
 
 views.py
-
+```
 from django.shortcuts import render
 
 def home(request):
@@ -159,14 +159,14 @@ def sil(request):
 def temp(request):
     return render(request,'temple.html')
 
-
+```
 
 # OUTPUT
-![alt text](../Image_map/mo.png)
-![alt text](../Image_map/co.png)
-![alt text](../Image_map/po.png)
-![alt text](../Image_map/so.png)
-![alt text](../Image_map/to.png)
+![alt text](Image_map/mo.png)
+![alt text](Image_map/co.png)
+![alt text](Image_map/po.png)
+![alt text](Image_map/so.png)
+![alt text](Image_map/to.png)
 
 # RESULT
 The program for implementing image maps using HTML is executed successfully.
