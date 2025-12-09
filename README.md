@@ -48,7 +48,7 @@ map.html
 
         </body>
 </html>
-________
+
 
 marry.html
 
@@ -66,7 +66,7 @@ marry.html
             </center>
         </body>
 </html>
-________
+
 
 palace.html
 
@@ -86,7 +86,7 @@ palace.html
             </center>
         </body>
 </html>
-________
+
 
 silk.html
 
@@ -106,7 +106,6 @@ silk.html
                 The store is a trusted landmark for bridal and ethnic wear shopping in the city.</p></h2>
         </body>
 </html>
-________
 
 temple.html
 
@@ -127,7 +126,7 @@ temple.html
             </center>  
         </body>
 </html>
-________
+
 
 urls.py
 
@@ -143,7 +142,7 @@ urlpatterns = [
     path('silk',views.sil,name='sil'),
     path('temple/',views.temp,name='temp')
 ]
-________
+
 
 views.py
 
